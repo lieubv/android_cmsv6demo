@@ -4,7 +4,8 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.4.1'
+        classpath 'com.android.tools.build:gradle:4.1.2'
+        //classpath 'com.android.tools.build:gradle:3.4.1'
     }
 }
 apply plugin: 'com.android.application'
@@ -15,14 +16,16 @@ allprojects {
     }
 }
 dependencies {
-    implementation fileTree(dir: 'libs', include: '*.jar')
-
+    implementation fileTree(dir: 'libs', include: ['*.aar', '*.jar'], exclude: [])
+    //implementation 'org.apache.httpcomponents:httpclient:4.5'
 }
 
 android {
 
     compileSdkVersion 28
     buildToolsVersion "28.0.3"
+
+    useLibrary 'org.apache.http.legacy'
 
     defaultConfig {//默认配置
 
