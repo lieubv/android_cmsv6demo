@@ -296,6 +296,7 @@ public class MainActivity extends Activity {
 			if (!MainActivity.this.isFinishing()) {
 				int result = -1;							
 				try {
+					Log.d("Alex", jsonObject.toString());
 					result = jsonObject.getInt("result");
 					mSession = jsonObject.getString("JSESSIONID");
 				} catch (JSONException e) {

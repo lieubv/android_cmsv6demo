@@ -1,4 +1,4 @@
-#Fri Mar 12 15:50:38 ICT 2021
-base.0=/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Mon Mar 15 11:57:41 ICT 2021
+base.0=/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/dex/debug/mergeDexDebug/out
 path.0=classes.dex
 renamed.0=classes.dex

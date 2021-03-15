@@ -5,8 +5,11 @@ net/babelstar/cmsv6demo/model/bd808/VehicleTeam.java
 com/cmsv6demo/PlaybackActivity.java
  com.cmsv6demo.PlaybackActivity
  com.cmsv6demo.PlaybackActivity$PlayClickListener
-net/babelstar/cmsv6demo/model/bd808/VehicleInfo.java
- net.babelstar.cmsv6demo.model.bd808.VehicleInfo
+com/cmsv6demo/MainActivity.java
+ com.cmsv6demo.MainActivity
+ com.cmsv6demo.MainActivity$1
+ com.cmsv6demo.MainActivity$LoginResponseListener
+ com.cmsv6demo.MainActivity$PlayClickListener
 com/cmsv6demo/CustomMenuAdapter.java
  com.cmsv6demo.CustomMenuAdapter
  com.cmsv6demo.CustomMenuAdapter$ViewHolder
@@ -41,6 +44,17 @@ net/babelstar/cmsv6demo/model/bd808/DeviceStatusInfo.java
 com/cmsv6demo/PreviewActivity.java
  com.cmsv6demo.PreviewActivity
  com.cmsv6demo.PreviewActivity$PlayClickListener
+com/cmsv6demo/R.java
+ com.cmsv6demo.R
+ com.cmsv6demo.R$attr
+ com.cmsv6demo.R$color
+ com.cmsv6demo.R$dimen
+ com.cmsv6demo.R$drawable
+ com.cmsv6demo.R$id
+ com.cmsv6demo.R$layout
+ com.cmsv6demo.R$menu
+ com.cmsv6demo.R$string
+ com.cmsv6demo.R$style
 com/cmsv6demo/BuildConfig.java
  com.cmsv6demo.BuildConfig
 com/cmsv6demo/MainDirectActivity.java
@@ -54,8 +68,5 @@ net/babelstar/cmsv6demo/adapter/DeviceSearchAdapter.java
 com/cmsv6demo/CustomMenuDialog.java
  com.cmsv6demo.CustomMenuDialog
  com.cmsv6demo.CustomMenuDialog$OnListener
-com/cmsv6demo/MainActivity.java
- com.cmsv6demo.MainActivity
- com.cmsv6demo.MainActivity$1
- com.cmsv6demo.MainActivity$LoginResponseListener
- com.cmsv6demo.MainActivity$PlayClickListener
+net/babelstar/cmsv6demo/model/bd808/VehicleInfo.java
+ net.babelstar.cmsv6demo.model.bd808.VehicleInfo
