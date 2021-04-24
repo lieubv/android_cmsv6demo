@@ -5,9 +5,11 @@ net/babelstar/cmsv6demo/model/bd808/VehicleTeam.java
 com/cmsv6demo/CustomMenuDialog.java
  com.cmsv6demo.CustomMenuDialog
  com.cmsv6demo.CustomMenuDialog$OnListener
-com/cmsv6demo/PlaybackActivity.java
- com.cmsv6demo.PlaybackActivity
- com.cmsv6demo.PlaybackActivity$PlayClickListener
+com/cmsv6demo/MainActivity.java
+ com.cmsv6demo.MainActivity
+ com.cmsv6demo.MainActivity$1
+ com.cmsv6demo.MainActivity$LoginResponseListener
+ com.cmsv6demo.MainActivity$PlayClickListener
 com/cmsv6demo/CustomMenuAdapter.java
  com.cmsv6demo.CustomMenuAdapter
  com.cmsv6demo.CustomMenuAdapter$ViewHolder
@@ -44,6 +46,9 @@ net/babelstar/cmsv6demo/adapter/DeviceSearchAdapter.java
  net.babelstar.cmsv6demo.adapter.DeviceSearchAdapter$1
  net.babelstar.cmsv6demo.adapter.DeviceSearchAdapter$SearchItemClick
  net.babelstar.cmsv6demo.adapter.DeviceSearchAdapter$ViewHolder
+com/cmsv6demo/MainDirectActivity.java
+ com.cmsv6demo.MainDirectActivity
+ com.cmsv6demo.MainDirectActivity$TabHostChangeListener
 com/cmsv6demo/RecordActivity.java
  com.cmsv6demo.RecordActivity
  com.cmsv6demo.RecordActivity$1
@@ -51,11 +56,6 @@ com/cmsv6demo/RecordActivity.java
  com.cmsv6demo.RecordActivity$RecordFileItemClick
  com.cmsv6demo.RecordActivity$SearchRunnable
  com.cmsv6demo.RecordActivity$SearchRunnable$1
-com/cmsv6demo/MainActivity.java
- com.cmsv6demo.MainActivity
- com.cmsv6demo.MainActivity$1
- com.cmsv6demo.MainActivity$LoginResponseListener
- com.cmsv6demo.MainActivity$PlayClickListener
-com/cmsv6demo/MainDirectActivity.java
- com.cmsv6demo.MainDirectActivity
- com.cmsv6demo.MainDirectActivity$TabHostChangeListener
+com/cmsv6demo/PlaybackActivity.java
+ com.cmsv6demo.PlaybackActivity
+ com.cmsv6demo.PlaybackActivity$PlayClickListener

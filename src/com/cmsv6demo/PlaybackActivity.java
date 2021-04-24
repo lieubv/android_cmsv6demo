@@ -46,10 +46,11 @@ public class PlaybackActivity extends Activity {
 		int picHeight = (screenWidth / 4) * 3;
 		Log.d("alex video size", screenWidth + "-" + picHeight);
 		mVideoView = (VideoView) findViewById(R.id.imageView1);
-		LayoutParams para = mVideoView.getLayoutParams();
-		para.width = screenWidth;
-		para.height = picHeight;
-		mVideoView.setLayoutParams(para);
+//		LayoutParams para = mVideoView.getLayoutParams();
+//		para.width = screenWidth;
+//		para.height = dm.heightPixels / 2;
+//		mVideoView.setLayoutParams(para);
+		//Log.d("alex", new Gson().toJson(para));
 //		LayoutParams para = mVideoView.getLayoutParams();
 //		para.width = screenWidth;
 //		para.height = picHeight;
@@ -124,6 +125,7 @@ public class PlaybackActivity extends Activity {
 //			mPlayback.StopVod();
 //		}
 		if (!mIsPlaying) {
+
 			mPlayback.setVideoView(mVideoView);
 			Intent intent = getIntent();
 			byte[] file = intent.getByteArrayExtra("File");
@@ -134,7 +136,6 @@ public class PlaybackActivity extends Activity {
 				mPlayback.setLanInfo(mServer, mPort);
 			//}
 			mPlayback.StartVod(file, nLength, nChannel);
-
 
 			//mIsPlaying = false;
 			mIsPlaying = true;
