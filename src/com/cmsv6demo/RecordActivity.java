@@ -146,7 +146,7 @@ public class RecordActivity extends Activity {
 			mFileList.clear();
 			NetClient.SFStartSearchFile(
 					mSearchHandle,
-					2021, 04, 16,
+					2021, 05, 14,
 					NetClient.GPS_FILE_TYPE_ALL,
 					99, // playback channels
 					0,
@@ -168,7 +168,6 @@ public class RecordActivity extends Activity {
 //						NetClient.GPS_FILE_TYPE_ALL, 0, 0, 86400, NetClient.GPS_FILE_LOCATION_DEVICE, 0, NetClient.GPS_MEDIA_TYPE_AUDIO_VIDEO,
 //						NetClient.GPS_STREAM_TYPE_MAIN_SUB, NetClient.GPS_MEMORY_TYPE_MAIN_SUB, 0, 0, 0);
 //			}
-
 
 			//NetClient.SFStartSearchFile(mSearchHandle, cal.get(Calendar.YEAR), cal.get(Calendar.MONTH) + 1, cal.get(Calendar.DAY_OF_MONTH), NetClient.GPS_FILE_TYPE_ALL, 0, 0, 86400);
 			mHandler.postDelayed(mSearchRunnable, 2000);

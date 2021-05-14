@@ -6,9 +6,9 @@
 	<RelativeLayout
 		android:id="@+id/layout_video"
 		android:layout_width="match_parent"
-		android:layout_height="250.0dip">
+		android:layout_height="350.0dip">
 		<net.babelstar.common.play.VideoView
-			android:id="@+id/imageView1"
+			android:id="@+id/replayVideoView"
 			android:layout_width="match_parent"
 			android:layout_height="match_parent"
 			android:layout_alignParentBottom="true" />
