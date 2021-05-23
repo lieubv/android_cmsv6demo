@@ -97,16 +97,13 @@ public class MainActivity extends Activity {
 		//AsyncHttpClient.sendRequest(this, url, null, new LoginResponseListener());
 		mPreferences = getSharedPreferences("com.cmsv6demo", 0);
 		//demo测试录像回放时候手动apk打开音频，存储，读写权限
-		String[] permissions = {
-				Manifest.permission.WRITE_EXTERNAL_STORAGE,
-				//Manifest.permission.READ_EXTERNAL_STORAGE,
-				Manifest.permission.READ_PHONE_STATE,
-				Manifest.permission.RECORD_AUDIO};
-		//PermissionUtils.getInstance().chekPermissions(MainActivity.this, permissions, permissionsResult);
+		String[] permissions = {Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE,
+				Manifest.permission.READ_PHONE_STATE, Manifest.permission.RECORD_AUDIO};
+		PermissionUtils.getInstance().chekPermissions(MainActivity.this, permissions, permissionsResult);
 
         String server = mPreferences.getString("Server", "192.168.1.230");
+        //server = "39.108.194.249";
         server = "103.237.144.141";
-        //server = "47.105.162.81";
         mEtServer.setText(server);
         String devIdno = mPreferences.getString("DevIDNO", "50003");
         //devIdno = "100012";
@@ -161,19 +158,20 @@ public class MainActivity extends Activity {
 			///直连播放
 //			mRealPlay1.setLanInfo(mServer, 6688);
 //			mRealPlay2.setLanInfo(mServer, 6688);
-			mRealPlay1.setViewInfo(mDevIdno, mDevIdno, 0, "CH1");
-	       	mRealPlay2.setViewInfo(mDevIdno, mDevIdno, 1, "CH2");
+			mRealPlay1.setViewInfo(mDevIdno, mDevIdno, 1, "CH2");
+	       	mRealPlay2.setViewInfo(mDevIdno, mDevIdno, 2, "CH3");
 	      //是否垂直铺满画面 true 是  false否
 //	       	mRealPlay1.setVideoBmpExtend(false);
 //	       	mRealPlay2.setVideoBmpExtend(false);
 //	       	是否水平铺满画面 true 是  false否 备注:一般针对横屏设置
 //	       	mRealPlay1.setHorizontalExtend(true);
 //	       	mRealPlay1.setHorizontalExtend(true);
-	       	
+			//子码流
+			mRealPlay1.setVideoType(1);
 	       	mRealPlay1.StartAV(false, true);
 	       	
-	       	mRealPlay1.startRecord();
-	       	
+//	       	mRealPlay1.startRecord();
+			mRealPlay2.setVideoType(1);
 	       	mRealPlay2.StartAV(false, true);
 	       	mIsStartAV = true;
 		}

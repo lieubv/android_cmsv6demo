@@ -30,7 +30,7 @@
  	    </LinearLayout>
 	</RelativeLayout>
 	<RelativeLayout android:id="@+id/layout_video" android:layout_width="fill_parent" android:layout_height="140.0dip" android:layout_below="@id/layout_info">
-	   <LinearLayout
+	   <GridLayout
 		     android:layout_width="wrap_content"
              android:layout_height="wrap_content"
              android:columnCount="2"
@@ -50,7 +50,7 @@
 		        android:layout_alignParentBottom="true" 
 		        android:background="#cccccc"/>
 		         
-	   	</LinearLayout>
+	   	</GridLayout>
 	</RelativeLayout>
 	<RelativeLayout android:id="@+id/layout_sound" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_below="@id/layout_video">
 	    <Button android:textSize="18.0sp" android:id="@+id/btnSound1"

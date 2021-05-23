@@ -1,12 +1,40 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-54:12
-INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-54:12
-INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-54:12
-INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-54:12
-INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-54:12
-INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-54:12
-INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-54:12
+ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-52:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/ced1a1ec468898b68b202c5d54834d9c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/a8dc005056e592c094663369541bdba5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/dad8878a86496351c4833a117e687d6a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/0eea6ac3b1ed2ca8a38927b70c21a898/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/4be504d199829599c5898764b48bd5c1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/3cbeb4e365f9be55bb0d2324db5a5213/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/44d3184c4a74a89a27b56eb585c0273c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/bea7a6af73649f850208f96ca611d788/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/dfb1cca19cb3aec3601ca0683c1cad9f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/abbdd4d85670858e83d949758a641880/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/c3c9fb280c96b9896cda432f532a0c26/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/82673b01de873d8ee91f84b7fc283ada/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/3d7ff94419b1f2248f65cc3b428aea7f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/062c916e785569320133101e9f5bfb2d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/734dafc3e10060cdcc021267e31f806e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/6d61a934237e9400cddfedf3b465b6af/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/0fc862a4c608928f7dcc917a35f0e096/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/999c93b4edd534c4fb3cee77fe1ed2f2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/8329803a4e05a7233bcf53e5ae161bc0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/macos/.gradle/caches/transforms-2/files-2.1/94a188d29b16a0a59cdd25ddb7c38182/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/db130eaad3e7a42d3eb6d612cde62bf8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/9bb9ae7f9d4d6605e203c4e82f240588/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/fe52a4e24238e8c866e42b40234ed472/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/15112c45ec156e5c299d8a40ded140f3/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/macos/.gradle/caches/transforms-2/files-2.1/84676afe71f8291d6b94a737542355a7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/macos/.gradle/caches/transforms-2/files-2.1/1afa9111d744e5b2bc8371d3391154b5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/macos/.gradle/caches/transforms-2/files-2.1/a400a8aa9b09c2472251a54f7fe41651/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/macos/.gradle/caches/transforms-2/files-2.1/d5e497d87e2a0f2eda826ff2f57b09a3/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-52:12
 	package
 		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:3:5-28
 		INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml
@@ -23,6 +51,12 @@ INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xm
 		INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml
 application
 ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:10:5-48:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/0fc862a4c608928f7dcc917a35f0e096/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/0fc862a4c608928f7dcc917a35f0e096/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/999c93b4edd534c4fb3cee77fe1ed2f2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/999c93b4edd534c4fb3cee77fe1ed2f2/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/0fc862a4c608928f7dcc917a35f0e096/AndroidManifest.xml:22:18-91
 	android:label
 		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:14:9-41
 	android:icon
@@ -83,30 +117,78 @@ ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:4
 		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:47:54-73
 	android:name
 		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:47:20-53
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:49:5-80
-	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:49:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:50:2-78
+ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:49:2-78
 	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:50:19-75
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:49:19-75
 uses-permission#android.permission.INTERNET
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:51:5-67
+ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:50:5-67
 	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:51:22-64
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:50:22-64
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:52:5-71
+ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:51:5-71
 	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:52:22-68
-uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:53:5-75
-	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:53:22-72
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:51:22-68
 uses-sdk
 INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml
 INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml
+MERGED from [com.android.support:support-v4:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/ced1a1ec468898b68b202c5d54834d9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/ced1a1ec468898b68b202c5d54834d9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/a8dc005056e592c094663369541bdba5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/a8dc005056e592c094663369541bdba5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/dad8878a86496351c4833a117e687d6a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/dad8878a86496351c4833a117e687d6a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/0eea6ac3b1ed2ca8a38927b70c21a898/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/0eea6ac3b1ed2ca8a38927b70c21a898/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/4be504d199829599c5898764b48bd5c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/4be504d199829599c5898764b48bd5c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/3cbeb4e365f9be55bb0d2324db5a5213/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/3cbeb4e365f9be55bb0d2324db5a5213/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/44d3184c4a74a89a27b56eb585c0273c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/44d3184c4a74a89a27b56eb585c0273c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/bea7a6af73649f850208f96ca611d788/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/bea7a6af73649f850208f96ca611d788/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/dfb1cca19cb3aec3601ca0683c1cad9f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/dfb1cca19cb3aec3601ca0683c1cad9f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/abbdd4d85670858e83d949758a641880/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/abbdd4d85670858e83d949758a641880/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/c3c9fb280c96b9896cda432f532a0c26/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/c3c9fb280c96b9896cda432f532a0c26/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/82673b01de873d8ee91f84b7fc283ada/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/82673b01de873d8ee91f84b7fc283ada/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/3d7ff94419b1f2248f65cc3b428aea7f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/3d7ff94419b1f2248f65cc3b428aea7f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/062c916e785569320133101e9f5bfb2d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/062c916e785569320133101e9f5bfb2d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/734dafc3e10060cdcc021267e31f806e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/734dafc3e10060cdcc021267e31f806e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/6d61a934237e9400cddfedf3b465b6af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/6d61a934237e9400cddfedf3b465b6af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/0fc862a4c608928f7dcc917a35f0e096/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/0fc862a4c608928f7dcc917a35f0e096/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/999c93b4edd534c4fb3cee77fe1ed2f2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/999c93b4edd534c4fb3cee77fe1ed2f2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/8329803a4e05a7233bcf53e5ae161bc0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/8329803a4e05a7233bcf53e5ae161bc0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/macos/.gradle/caches/transforms-2/files-2.1/94a188d29b16a0a59cdd25ddb7c38182/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/macos/.gradle/caches/transforms-2/files-2.1/94a188d29b16a0a59cdd25ddb7c38182/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/db130eaad3e7a42d3eb6d612cde62bf8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/db130eaad3e7a42d3eb6d612cde62bf8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/9bb9ae7f9d4d6605e203c4e82f240588/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/9bb9ae7f9d4d6605e203c4e82f240588/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/fe52a4e24238e8c866e42b40234ed472/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/fe52a4e24238e8c866e42b40234ed472/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/15112c45ec156e5c299d8a40ded140f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/macos/.gradle/caches/transforms-2/files-2.1/15112c45ec156e5c299d8a40ded140f3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/macos/.gradle/caches/transforms-2/files-2.1/84676afe71f8291d6b94a737542355a7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/macos/.gradle/caches/transforms-2/files-2.1/84676afe71f8291d6b94a737542355a7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/macos/.gradle/caches/transforms-2/files-2.1/1afa9111d744e5b2bc8371d3391154b5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/macos/.gradle/caches/transforms-2/files-2.1/1afa9111d744e5b2bc8371d3391154b5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/macos/.gradle/caches/transforms-2/files-2.1/a400a8aa9b09c2472251a54f7fe41651/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/macos/.gradle/caches/transforms-2/files-2.1/a400a8aa9b09c2472251a54f7fe41651/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/macos/.gradle/caches/transforms-2/files-2.1/d5e497d87e2a0f2eda826ff2f57b09a3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/macos/.gradle/caches/transforms-2/files-2.1/d5e497d87e2a0f2eda826ff2f57b09a3/AndroidManifest.xml:20:5-44
 INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml
 INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml
 	android:targetSdkVersion

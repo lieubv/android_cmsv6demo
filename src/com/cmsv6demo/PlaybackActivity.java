@@ -8,7 +8,6 @@ import android.content.Intent;
 import android.os.Bundle;
 //import android.util.DisplayMetrics;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -68,8 +67,6 @@ public class PlaybackActivity extends Activity {
 			mPort = intent.getIntExtra("port", 0);
 			mDevIdno = intent.getStringExtra("devIdno");
 		}
-		Log.d("alex mDevIdno", mDevIdno);
-		Log.d("alex mIsDirect", String.valueOf(mIsDirect));
 		StartPlayback();
 	}
 
@@ -94,17 +91,6 @@ public class PlaybackActivity extends Activity {
 			int nLength = intent.getIntExtra("Length", 0);
 			int nChannel = intent.getIntExtra("Channel", 0);
 			mPlayback.setPlayerDevIdno(mDevIdno);
-			//
-			mServer = "103.237.144.141"; // null
-			mPort = 6605; // 0
-
-			Log.d("alex file size", String.valueOf(file.length));
-			Log.d("alex nLength", String.valueOf(nLength));
-			Log.d("alex nChannel", String.valueOf(nChannel));
-			Log.d("alex mServer", mServer);
-			Log.d("alex mPort", String.valueOf(mPort));
-
-			//
 			if(mIsDirect){
 				mPlayback.setLanInfo(mServer, mPort);
 			}
