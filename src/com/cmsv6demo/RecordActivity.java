@@ -91,15 +91,17 @@ public class RecordActivity extends Activity {
 			mDevIdno = intent.getStringExtra("DevIDNO");
 		}
 		mIsDirect = intent.getBooleanExtra("direct", false);
+
 		Log.d("alex", "isDirect : " + mIsDirect);
+
 		mIsDirect = true;
 		if(mIsDirect){
 			mServer = intent.getStringExtra("serverIp");
-			mPort = intent.getIntExtra("port", 0);
+			mPort = intent.getIntExtra("port", 6605);
 			mDevIdno = intent.getStringExtra("devIdno");
 		}
 		mServer = "103.237.144.141";
-		mPort = 6605;
+//		mPort = 6605;
 		mDevIdno = "2957177";
 		startSearch();
 	}
@@ -139,18 +141,38 @@ public class RecordActivity extends Activity {
 			mSearchHandle = NetClient.SFOpenSrchFile(mDevIdno,
 					NetClient.GPS_FILE_LOCATION_DEVICE,
 					NetClient.GPS_FILE_ATTRIBUTE_RECORD);
+
 			//存储服务器录像搜索（依据设备"车牌号"，如下）
 			//storageServer video search（According to the license plate number）
 //			mSearchHandle = NetClient.SFOpenSrchFile("4429-HY", NetClient.GPS_FILE_LOCATION_STOSVR, NetClient.GPS_FILE_ATTRIBUTE_RECORD);
 			
 			mFileList.clear();
-			NetClient.SFStartSearchFile(
-					mSearchHandle,
-					2021, 05, 14,
-					NetClient.GPS_FILE_TYPE_ALL,
-					99, // playback channels
-					0,
-					86400);
+			if (mIsDirect) {
+
+				//NetClient.SFSetRealServer(mSearchHandle, mServer, mPort, "");
+
+				NetClient.SFStartSearchFile(
+						mSearchHandle,
+						2021, 05, 18,
+						NetClient.GPS_FILE_TYPE_ALL,
+						99, // playback channels
+						0,
+						86400);
+			} else {
+				Log.d("alex", "search new style");
+				NetClient.SFStartSearchFileEx(mSearchHandle,
+						2021, 05, 18,
+						2021, 05, 18,
+						NetClient.GPS_FILE_TYPE_ALL, 0, 0, 86400,
+						NetClient.GPS_FILE_LOCATION_DEVICE,
+						0,
+						NetClient.GPS_MEDIA_TYPE_AUDIO_VIDEO,
+						NetClient.GPS_STREAM_TYPE_MAIN_SUB,
+						NetClient.GPS_MEMORY_TYPE_MAIN_SUB,
+						0,
+						0,
+						0);
+			}
 			//NetClient.SFStartSearchFile(mSearchHandle, cal.get(Calendar.YEAR), cal.get(Calendar.MONTH) + 1, cal.get(Calendar.DAY_OF_MONTH), NetClient.GPS_FILE_TYPE_ALL, 0, 0, 86400);
 
 //			if(mIsDirect){
@@ -215,7 +237,7 @@ public class RecordActivity extends Activity {
 						search.setFileInfo(fileInfo);
 						int index = 0;
 
-
+// 178272094
 						search.setDevIdno(mDevIdno);
 						search.setName(info[index ++]);
 						search.setYear(Integer.parseInt(info[index ++]));

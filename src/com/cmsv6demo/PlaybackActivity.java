@@ -22,7 +22,7 @@ import android.widget.RelativeLayout;
 import com.babelstar.gviewer.NetClient;
 import com.google.gson.Gson;
 
-public class PlaybackActivity extends Activity {
+public class PlaybackActivity extends Activity implements Playback.PlaybackListener {
     private boolean mIsPlaying = false;
     private Playback mPlayback;
     private VideoView mVideoView;
@@ -34,7 +34,7 @@ public class PlaybackActivity extends Activity {
     private boolean mIsDirect;
     private String mServer;
     private int mPort;
-
+    // /mnt/sd1/rec_dir/REC0404.264;2021;5;18;39531;39666;;0;209691672;0;1;0;15;0;0;0;0;0;0;0;0;0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,19 +43,22 @@ public class PlaybackActivity extends Activity {
 
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
-//		int screenWidth = dm.widthPixels;
-//		int picHeight = (screenWidth / 4) * 3;
-//		Log.d("alex video size", screenWidth + "-" + picHeight);
+		int screenWidth = dm.widthPixels;
+		int picHeight = (screenWidth / 4) * 3;
+		Log.d("alex video size", screenWidth + "-" + picHeight);
         mVideoView = (VideoView) findViewById(R.id.replayVideoView);
 
         mBtnStart = (Button) findViewById(R.id.btnStart);
         mBtnStop = (Button) findViewById(R.id.btnStop);
+
         PlayClickListener playClickListen = new PlayClickListener();
         mBtnStart.setOnClickListener(playClickListen);
         mBtnStop.setOnClickListener(playClickListen);
 
         mPlayback = new Playback(this);
         mPlayback.setVideoView(mVideoView);
+        mPlayback.setPlayerListener(this);
+
         Intent intent = getIntent();
         if (intent.hasExtra("DevIDNO")) {
             mDevIdno = intent.getStringExtra("DevIDNO");
@@ -69,12 +72,17 @@ public class PlaybackActivity extends Activity {
         mDevIdno = intent.getStringExtra("devIdno");
         //}
 
-        String sdPath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/";
-        Log.d("path", sdPath);
+        mPort = 6613;
+        // mPlayback.setLanInfo(mServer, mPort);
+
+//        String sdPath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/";
+//        Log.d("path", sdPath);
 //		NetClient.Initialize("/mnt/sdcard/");
-        NetClient.Initialize(sdPath);
-        NetClient.SetDirSvr(mServer, mServer, 6605, 0);
+//        NetClient.Initialize(sdPath);
+//        NetClient.SetDirSvr(mServer, mServer, 6605, 0);
         //
+
+        //mPlayback.setVideoView(mVideoView);
         StartPlayback();
     }
 
@@ -118,21 +126,23 @@ public class PlaybackActivity extends Activity {
 //		}
         if (!mIsPlaying) {
 
-            mPlayback.setVideoView(mVideoView);
             Intent intent = getIntent();
             byte[] file = intent.getByteArrayExtra("File");
             int nLength = intent.getIntExtra("Length", 0);
             int nChannel = intent.getIntExtra("Channel", 0);
 
-            Log.d("alex file", "value: " + file.toString());
+            for (int i = 0; i < file.length; i++ ) {
+                Log.d("alex value at " + String.valueOf(i) + " :", String.valueOf(file[i]));
+            }
+
+            Log.d("alex file length", "value: " + file.length);
             Log.d("alex length", "value: " + nLength);
             Log.d("alex channel", "value: " + nChannel);
             Log.d("alex mdvrId", "value: " + mDevIdno + ", server: " + mServer + ", port: " + mPort);
 
             mPlayback.setPlayerDevIdno(mDevIdno);
-
-            mPlayback.setLanInfo(mServer, mPort);
-
+            //nLength = 101;
+            Log.d("alex length", "value: " + nLength);
             mPlayback.StartVod(file, nLength, nChannel);
 
 
@@ -170,6 +180,31 @@ public class PlaybackActivity extends Activity {
             Log.d("alex", "Playback Stopped");
             releaseWakeLock();
         }
+    }
+
+    @Override
+    public void onBeginPlay() {
+        Log.d("alex", "onBeginPlay");
+    }
+
+    @Override
+    public void onUpdatePlay(int i, int i1) {
+        Log.d("alex", "onUpdatePlay" + String.valueOf(i) + " - " + String.valueOf(i1));
+    }
+
+    @Override
+    public void onEndPlay() {
+        Log.d("alex", "onEndPlay");
+    }
+
+    @Override
+    public void onClick(VideoView videoView, int i) {
+        Log.d("alex", "onClick");
+    }
+
+    @Override
+    public void onDbClick(VideoView videoView, int i) {
+        Log.d("alex", "onDbClick");
     }
 
     final class PlayClickListener implements OnClickListener {
