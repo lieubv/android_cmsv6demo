@@ -18,7 +18,6 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 //import android.os.Environment;
 import android.os.Environment;
-import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -88,19 +87,19 @@ public class MainActivity extends Activity {
 		mBtnMonitorStart.setOnClickListener(playClickListen);
 		mBtnMonitorStop.setOnClickListener(playClickListen);
 		mBtnDirectSearch.setOnClickListener(playClickListen);
-
+		
 		mRealPlay1 = new RealPlay(this);
 		mRealPlay2 = new RealPlay(this);
 		mRealPlay1.setVideoView(mVideoImage1);
 		mRealPlay2.setVideoView(mVideoImage2);
 		// 如果服务器做了限制 必须要用户登录才能看视频 调用一下接口
-//		String url = "http://103.237.144.141:80/LoginAction_loginMobile.action?update=gViewerAndroid&server=login&userAccount=dlhoangha&password=@admin123";
-//		AsyncHttpClient.sendRequest(this, url, null, new LoginResponseListener());
+		//String url = "http://218.100.210.10:8088/LoginAction_loginMobile.action?update=gViewerAndroid&server=login&userAccount=admin&password=admin";	
+		//AsyncHttpClient.sendRequest(this, url, null, new LoginResponseListener());
 		mPreferences = getSharedPreferences("com.cmsv6demo", 0);
 		//demo测试录像回放时候手动apk打开音频，存储，读写权限
 		String[] permissions = {
 				Manifest.permission.WRITE_EXTERNAL_STORAGE,
-				Manifest.permission.READ_EXTERNAL_STORAGE,
+				//Manifest.permission.READ_EXTERNAL_STORAGE,
 				Manifest.permission.READ_PHONE_STATE,
 				Manifest.permission.RECORD_AUDIO};
 		//PermissionUtils.getInstance().chekPermissions(MainActivity.this, permissions, permissionsResult);
@@ -114,7 +113,6 @@ public class MainActivity extends Activity {
         devIdno = "2957177";
        	mEtDevIdno.setText(devIdno);
         String sdPath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/";
-        Log.d("path", sdPath);
 //		NetClient.Initialize("/mnt/sdcard/");
         NetClient.Initialize(sdPath);
 		if (!updateServer()) {
@@ -163,8 +161,8 @@ public class MainActivity extends Activity {
 			///直连播放
 //			mRealPlay1.setLanInfo(mServer, 6688);
 //			mRealPlay2.setLanInfo(mServer, 6688);
-			mRealPlay1.setViewInfo(mDevIdno, mDevIdno, 2, "CH3");
-	       	mRealPlay2.setViewInfo(mDevIdno, mDevIdno, 3, "CH4");
+			mRealPlay1.setViewInfo(mDevIdno, mDevIdno, 0, "CH1");
+	       	mRealPlay2.setViewInfo(mDevIdno, mDevIdno, 1, "CH2");
 	      //是否垂直铺满画面 true 是  false否
 //	       	mRealPlay1.setVideoBmpExtend(false);
 //	       	mRealPlay2.setVideoBmpExtend(false);
@@ -296,7 +294,6 @@ public class MainActivity extends Activity {
 			if (!MainActivity.this.isFinishing()) {
 				int result = -1;							
 				try {
-					Log.d("Alex", jsonObject.toString());
 					result = jsonObject.getInt("result");
 					mSession = jsonObject.getString("JSESSIONID");
 				} catch (JSONException e) {

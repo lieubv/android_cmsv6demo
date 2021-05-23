@@ -7,142 +7,96 @@
 7    <uses-sdk
 8        android:minSdkVersion="11"
 8-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml
-9        android:targetSdkVersion="30" />
+9        android:targetSdkVersion="28" />
 9-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml
 10
-11    <uses-feature
-11-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:8:5-10:34
-12        android:glEsVersion="0x00020000"
-12-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:9:9-41
-13        android:required="true" />
-13-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:10:9-32
-14
-15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-15-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:56:2-78
-15-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:56:19-75
-16    <uses-permission android:name="android.permission.INTERNET" />
-16-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:57:5-67
-16-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:57:22-64
-17    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-17-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:58:5-71
-17-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:58:22-68
-18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-18-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:59:5-80
-18-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:59:22-77
-19    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-19-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:60:5-75
-19-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:60:22-72
-20    <uses-permission android:name="android.permission.WAKE_LOCK" />
-20-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:62:5-68
-20-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:62:22-65
-21    <uses-permission android:name="android.permission.GET_TASKS" />
-21-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:63:5-67
-21-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:63:22-65
-22    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
-22-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:64:5-65:47
-22-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:64:22-76
-23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-23-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:56:2-78
-23-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:56:19-75
-24    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
-24-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:67:5-87
-24-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:67:22-85
-25    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
-25-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:68:5-84
-25-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:68:22-82
-26    <uses-permission android:name="android.permission.RECORD_VIDEO" />
-26-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:69:5-70
-26-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:69:22-68
-27    <uses-permission android:name="android.intent.action.PACKAGE_ADDED" />
-27-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:70:5-74
-27-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:70:22-72
-28    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-28-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:71:5-75
-28-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:71:22-73
-29    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-29-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:72:5-75
-29-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:72:22-73
-30    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-30-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:60:5-75
-30-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:60:22-72
-31    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-31-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:74:5-80
-31-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:74:22-78
-32    <uses-permission android:name="android.permission.CAMERA" />
-32-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:75:5-64
-32-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:75:22-62
-33
-34    <application
-34-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:13:5-54:19
-35        android:allowBackup="true"
-35-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:15:9-35
-36        android:debuggable="true"
-37        android:icon="@drawable/ic_launcher"
-37-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:16:9-45
-38        android:label="@string/app_name"
-38-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:17:9-41
-39        android:testOnly="true"
-40        android:theme="@style/AppTheme" >
-40-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:18:9-40
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:49:5-80
+11-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:49:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:50:2-78
+12-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:50:19-75
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:51:5-67
+13-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:51:22-64
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:52:5-71
+14-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:52:22-68
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:53:5-75
+15-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:53:22-72
+16
+17    <application
+17-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:10:5-48:19
+18        android:allowBackup="true"
+18-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:12:9-35
+19        android:debuggable="true"
+20        android:icon="@drawable/ic_launcher"
+20-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:13:9-45
+21        android:label="@string/app_name"
+21-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:14:9-41
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:15:9-40
+24        <activity
+24-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:16:9-23:20
+25            android:name="com.cmsv6demo.MainActivity"
+25-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:17:13-54
+26            android:label="@string/app_name" >
+26-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:18:13-45
+27            <intent-filter>
+27-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:19:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:20:17-69
+28-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:20:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:21:17-77
+30-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:24:9-27:20
+34            android:name="com.cmsv6demo.RecordActivity"
+34-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:25:13-56
+35            android:label="@string/app_name" >
+35-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:26:13-45
+36        </activity>
+37        <activity
+37-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:28:9-31:20
+38            android:name="com.cmsv6demo.PlaybackActivity"
+38-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:29:12-57
+39            android:label="@string/app_name" >
+39-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:30:12-44
+40        </activity>
 41        <activity
-41-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:20:9-27:20
-42            android:name="com.cmsv6demo.MainActivity"
-42-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:21:13-54
+41-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:33:9-36:20
+42            android:name="com.cmsv6demo.DeviceSearchActivity"
+42-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:34:12-61
 43            android:label="@string/app_name" >
-43-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:22:13-45
-44            <intent-filter>
-44-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:23:13-26:29
-45                <action android:name="android.intent.action.MAIN" />
-45-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:24:17-69
-45-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:24:25-66
-46
-47                <category android:name="android.intent.category.LAUNCHER" />
-47-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:25:17-77
-47-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:25:27-74
-48            </intent-filter>
-49        </activity>
-50        <activity
-50-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:28:9-31:20
-51            android:name="com.cmsv6demo.RecordActivity"
-51-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:29:13-56
-52            android:label="@string/app_name" >
-52-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:30:13-45
-53        </activity>
-54        <activity
-54-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:32:9-35:20
-55            android:name="com.cmsv6demo.PlaybackActivity"
-55-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:33:12-57
-56            android:label="@string/app_name" >
-56-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:34:12-44
-57        </activity>
-58        <activity
-58-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:37:9-40:20
-59            android:name="com.cmsv6demo.DeviceSearchActivity"
-59-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:38:12-61
-60            android:label="@string/app_name" >
-60-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:39:12-44
-61        </activity>
-62        <activity
-62-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:42:9-45:20
-63            android:name="com.cmsv6demo.MainDirectActivity"
-63-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:43:13-60
-64            android:label="@string/app_name" >
-64-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:44:13-45
-65        </activity>
-66        <activity
-66-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:46:9-49:20
-67            android:name="com.cmsv6demo.PreviewActivity"
-67-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:47:13-57
-68            android:label="@string/app_name" >
-68-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:48:13-45
-69        </activity>
-70
-71        <meta-data
-71-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:51:9-75
-72            android:name="android.max_aspect"
-72-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:51:20-53
-73            android:value="2.1" />
-73-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:51:54-73
-74    </application>
-75
-76</manifest>
+43-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:35:12-44
+44        </activity>
+45        <activity
+45-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:38:9-41:20
+46            android:name="com.cmsv6demo.MainDirectActivity"
+46-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:39:13-60
+47            android:label="@string/app_name" >
+47-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:40:13-45
+48        </activity>
+49        <activity
+49-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:42:9-45:20
+50            android:name="com.cmsv6demo.PreviewActivity"
+50-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:43:13-57
+51            android:label="@string/app_name" >
+51-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:44:13-45
+52        </activity>
+53
+54        <meta-data
+54-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:47:9-75
+55            android:name="android.max_aspect"
+55-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:47:20-53
+56            android:value="2.1" />
+56-->/Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:47:54-73
+57    </application>
+58
+59</manifest>

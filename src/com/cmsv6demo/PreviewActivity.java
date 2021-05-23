@@ -89,7 +89,7 @@ public class PreviewActivity extends Activity {
 	protected void onDestroy() {
 		// TODO Auto-generated method stub
 		StopAV();
-		//NetClient.UnInitialize();
+		NetClient.UnInitialize();
 		super.onDestroy();
 	}
 	
@@ -110,8 +110,8 @@ public class PreviewActivity extends Activity {
 			///直连播放
 			mRealPlay1.setLanInfo(mServer, mPort);
 			mRealPlay2.setLanInfo(mServer, mPort);
-			mRealPlay1.setViewInfo(mDevIdno, mDevIdno, 0, "CH3");
-	       	mRealPlay2.setViewInfo(mDevIdno, mDevIdno, 1, "CH4");
+			mRealPlay1.setViewInfo(mDevIdno, mDevIdno, 0, "CH1");
+	       	mRealPlay2.setViewInfo(mDevIdno, mDevIdno, 1, "CH2");
 	      //是否铺满画面 true 是  false否
 	       	mRealPlay1.setVideoBmpExtend(false);
 	       	mRealPlay2.setVideoBmpExtend(false);

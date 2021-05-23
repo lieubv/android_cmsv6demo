@@ -1,162 +1,108 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-77:12
-INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-77:12
-INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-77:12
-INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-77:12
-INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-77:12
-INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-77:12
-INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-77:12
+ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:1-54:12
 	package
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:4:5-28
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:3:5-28
 		INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml
 		INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:6:5-30
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:5:5-30
 		INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml
 		INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml
-	xmlns:tools
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:3:5-51
 	xmlns:android
 		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:5:5-28
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:4:5-28
 		INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml
 		INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml
-uses-feature#0x00020000
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:8:5-10:34
-	android:glEsVersion
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:9:9-41
-	android:required
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:10:9-32
 application
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:13:5-54:19
+ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:10:5-48:19
 	android:label
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:17:9-41
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:14:9-41
 	android:icon
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:16:9-45
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:13:9-45
 	android:allowBackup
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:15:9-35
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:18:9-40
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:15:9-40
 activity#com.cmsv6demo.MainActivity
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:20:9-27:20
+ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:16:9-23:20
 	android:label
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:22:13-45
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:18:13-45
 	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:21:13-54
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:17:13-54
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:23:13-26:29
+ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:19:13-22:29
 action#android.intent.action.MAIN
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:24:17-69
+ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:24:25-66
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:25:17-77
+ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:25:27-74
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:21:27-74
 activity#com.cmsv6demo.RecordActivity
+ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:24:9-27:20
+	android:label
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:26:13-45
+	android:name
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:25:13-56
+activity#com.cmsv6demo.PlaybackActivity
 ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:28:9-31:20
 	android:label
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:30:13-45
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:30:12-44
 	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:29:13-56
-activity#com.cmsv6demo.PlaybackActivity
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:32:9-35:20
-	android:label
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:34:12-44
-	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:33:12-57
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:29:12-57
 activity#com.cmsv6demo.DeviceSearchActivity
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:37:9-40:20
+ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:33:9-36:20
 	android:label
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:39:12-44
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:35:12-44
 	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:38:12-61
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:34:12-61
 activity#com.cmsv6demo.MainDirectActivity
+ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:38:9-41:20
+	android:label
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:40:13-45
+	android:name
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:39:13-60
+activity#com.cmsv6demo.PreviewActivity
 ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:42:9-45:20
 	android:label
 		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:44:13-45
 	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:43:13-60
-activity#com.cmsv6demo.PreviewActivity
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:46:9-49:20
-	android:label
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:48:13-45
-	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:47:13-57
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:43:13-57
 meta-data#android.max_aspect
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:51:9-75
+ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:47:9-75
 	android:value
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:51:54-73
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:47:54-73
 	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:51:20-53
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:56:2-78
-	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:56:19-75
-uses-permission#android.permission.INTERNET
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:57:5-67
-	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:57:22-64
-uses-permission#android.permission.RECORD_AUDIO
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:58:5-71
-	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:58:22-68
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:47:20-53
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:59:5-80
+ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:49:5-80
 	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:59:22-77
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:49:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:50:2-78
+	android:name
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:50:19-75
+uses-permission#android.permission.INTERNET
+ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:51:5-67
+	android:name
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:51:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:52:5-71
+	android:name
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:52:22-68
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:60:5-75
+ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:53:5-75
 	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:60:22-72
-uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:62:5-68
-	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:62:22-65
-uses-permission#android.permission.GET_TASKS
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:63:5-67
-	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:63:22-65
-uses-permission#android.permission.CHANGE_CONFIGURATION
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:64:5-65:47
-	tools:ignore
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:65:9-44
-	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:64:22-76
-uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:67:5-87
-	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:67:22-85
-uses-permission#com.android.launcher.permission.READ_SETTINGS
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:68:5-84
-	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:68:22-82
-uses-permission#android.permission.RECORD_VIDEO
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:69:5-70
-	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:69:22-68
-uses-permission#android.intent.action.PACKAGE_ADDED
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:70:5-74
-	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:70:22-72
-uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:71:5-75
-	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:71:22-73
-uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:72:5-75
-	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:72:22-73
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:74:5-80
-	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:74:22-78
-uses-permission#android.permission.CAMERA
-ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:75:5-64
-	android:name
-		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:75:22-62
+		ADDED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml:53:22-72
 uses-sdk
 INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/macos/Documents/GitHub/android_cmsv6demo/AndroidManifest.xml

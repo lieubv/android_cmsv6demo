@@ -12,7 +12,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -26,7 +25,6 @@ import android.widget.Toast;
 import com.babelstar.gviewer.NetClient;
 //import com.cmsv6demo.MainActivity.PlayClickListener;
 import com.cmsv6demo.RecordListAdapter.PlaybackItemClick;
-import com.google.gson.Gson;
 
 import net.babelstar.cmsv6demo.model.bd808.VehicleInfo;
 import net.babelstar.common.util.PermissionUtils;
@@ -56,20 +54,16 @@ public class RecordActivity extends Activity {
 		mLstRecord.setOnItemClickListener(new OnItemClickListener() {  
             @Override  
             public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {  
-            	Intent intent = new Intent();
+            	Intent intent = new Intent(); 
 				intent.putExtra("DevIDNO", mDevIdno); 
 				intent.putExtra("File", mFileList.get(arg2).getOrginalFile()); 
-				//intent.putExtra("Length", mFileList.get(arg2).getOrginalLen());
-				intent.putExtra("Length", mFileList.get(arg2).getFileLength());
+				intent.putExtra("Length", mFileList.get(arg2).getOrginalLen());
 				intent.putExtra("Channel", mFileList.get(arg2).getChn());
 
 				intent.putExtra("serverIp", mServer);
 				intent.putExtra("port", mPort);
 				intent.putExtra("direct", true);
 				intent.putExtra("devIdno", mDevIdno);
-
-				Log.d("alex", "name : " + mFileList.get(arg2).getName());
-				Log.d("alex", mFileList.get(arg2).getChn() + "-" + mFileList.toString());
 
 				intent.setClass(RecordActivity.this, PlaybackActivity.class);
 				startActivityForResult(intent, 0);
@@ -91,18 +85,12 @@ public class RecordActivity extends Activity {
 			mDevIdno = intent.getStringExtra("DevIDNO");
 		}
 		mIsDirect = intent.getBooleanExtra("direct", false);
-
-		Log.d("alex", "isDirect : " + mIsDirect);
-
-		mIsDirect = true;
 		if(mIsDirect){
 			mServer = intent.getStringExtra("serverIp");
-			mPort = intent.getIntExtra("port", 6605);
+			mPort = intent.getIntExtra("port", 0);
 			mDevIdno = intent.getStringExtra("devIdno");
 		}
-		mServer = "103.237.144.141";
-//		mPort = 6605;
-		mDevIdno = "2957177";
+
 		startSearch();
 	}
 
@@ -130,66 +118,34 @@ public class RecordActivity extends Activity {
 	}
 	
 	protected void startSearch() {
-		Log.d("alex", "Start search");
 		if (0 == mSearchHandle) {
 			showSearching();
 			
 			Calendar cal = Calendar.getInstance();
 			//设备端录像搜索
 			//Device video search
-			Log.d("alex device video", "deviceId" + mDevIdno);
-			mSearchHandle = NetClient.SFOpenSrchFile(mDevIdno,
-					NetClient.GPS_FILE_LOCATION_DEVICE,
-					NetClient.GPS_FILE_ATTRIBUTE_RECORD);
 
+			mSearchHandle = NetClient.SFOpenSrchFile(mDevIdno, NetClient.GPS_FILE_LOCATION_DEVICE, NetClient.GPS_FILE_ATTRIBUTE_RECORD);
 			//存储服务器录像搜索（依据设备"车牌号"，如下）
 			//storageServer video search（According to the license plate number）
 //			mSearchHandle = NetClient.SFOpenSrchFile("4429-HY", NetClient.GPS_FILE_LOCATION_STOSVR, NetClient.GPS_FILE_ATTRIBUTE_RECORD);
 			
 			mFileList.clear();
-			if (mIsDirect) {
 
-				//NetClient.SFSetRealServer(mSearchHandle, mServer, mPort, "");
-
-				NetClient.SFStartSearchFile(
-						mSearchHandle,
-						2021, 05, 18,
-						NetClient.GPS_FILE_TYPE_ALL,
-						99, // playback channels
-						0,
-						86400);
-			} else {
-				Log.d("alex", "search new style");
-				NetClient.SFStartSearchFileEx(mSearchHandle,
-						2021, 05, 18,
-						2021, 05, 18,
-						NetClient.GPS_FILE_TYPE_ALL, 0, 0, 86400,
-						NetClient.GPS_FILE_LOCATION_DEVICE,
-						0,
-						NetClient.GPS_MEDIA_TYPE_AUDIO_VIDEO,
-						NetClient.GPS_STREAM_TYPE_MAIN_SUB,
-						NetClient.GPS_MEMORY_TYPE_MAIN_SUB,
-						0,
-						0,
-						0);
-			}
+			NetClient.SFStartSearchFile(mSearchHandle,2021, 05, 23, NetClient.GPS_FILE_TYPE_ALL, 0, 0, 86400);
 			//NetClient.SFStartSearchFile(mSearchHandle, cal.get(Calendar.YEAR), cal.get(Calendar.MONTH) + 1, cal.get(Calendar.DAY_OF_MONTH), NetClient.GPS_FILE_TYPE_ALL, 0, 0, 86400);
 
 //			if(mIsDirect){
 //
 //				NetClient.SFSetRealServer(mSearchHandle, mServer, mPort, "");
-//				NetClient.SFStartSearchFile(mSearchHandle,
-//						cal.get(Calendar.YEAR),
-//						cal.get(Calendar.MONTH) + 1,
-//						cal.get(Calendar.DAY_OF_MONTH),
-//						NetClient.GPS_FILE_TYPE_ALL, 0, 0, 86400);
-//			}else
-//				{
+//				NetClient.SFStartSearchFile(mSearchHandle,cal.get(Calendar.YEAR), cal.get(Calendar.MONTH) + 1,  cal.get(Calendar.DAY_OF_MONTH), NetClient.GPS_FILE_TYPE_ALL, 0, 0, 86400);
+//			}else{
 //				NetClient.SFStartSearchFileEx(mSearchHandle, cal.get(Calendar.YEAR), cal.get(Calendar.MONTH) + 1, cal.get(Calendar.DAY_OF_MONTH),
 //						cal.get(Calendar.YEAR), cal.get(Calendar.MONTH) + 1, cal.get(Calendar.DAY_OF_MONTH),
 //						NetClient.GPS_FILE_TYPE_ALL, 0, 0, 86400, NetClient.GPS_FILE_LOCATION_DEVICE, 0, NetClient.GPS_MEDIA_TYPE_AUDIO_VIDEO,
 //						NetClient.GPS_STREAM_TYPE_MAIN_SUB, NetClient.GPS_MEMORY_TYPE_MAIN_SUB, 0, 0, 0);
 //			}
+
 
 			//NetClient.SFStartSearchFile(mSearchHandle, cal.get(Calendar.YEAR), cal.get(Calendar.MONTH) + 1, cal.get(Calendar.DAY_OF_MONTH), NetClient.GPS_FILE_TYPE_ALL, 0, 0, 86400);
 			mHandler.postDelayed(mSearchRunnable, 2000);
@@ -223,21 +179,14 @@ public class RecordActivity extends Activity {
 						byte[] temp = new byte[i];
 						System.arraycopy(result, 0, temp, 0, i);
 						//szFileInfo:	szFile[256]:nYear:nMonth:nDay:uiBegintime:uiEndtime:szDevIDNO:nChn:nFileLen:nFileType:nLocation:nSvrID
-
 						String fileInfo = new String(temp);
-						Log.d("alex fileInfo", fileInfo);
 						String[] info = fileInfo.split(";");
 						
 						RecordFile search = new RecordFile();
-
 						search.setOrginalFileInfo(result, i);
-						//search.setOrginalFileInfo(result, search.getFileOffset());
-
-
+						
 						search.setFileInfo(fileInfo);
 						int index = 0;
-
-// 178272094
 						search.setDevIdno(mDevIdno);
 						search.setName(info[index ++]);
 						search.setYear(Integer.parseInt(info[index ++]));
@@ -259,12 +208,6 @@ public class RecordActivity extends Activity {
 						search.setStream(Integer.parseInt(info[index ++]) > 0 ? true : false);
 
 						search.setIsPlaying(false);
-
-						// test
-						search.setOrginalFileInfo(result, search.getFileOffset());
-
-
-						Log.d("alex debug", new Gson().toJson(search));
 						
 						mFileList.add(search);
 						continue;

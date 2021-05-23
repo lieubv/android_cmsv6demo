@@ -1,158 +1,158 @@
 [
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable-xhdpi_toolbar_playback_normal.png.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable-xhdpi/toolbar_playback_normal.png"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/layout_activity_preview.xml.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/layout/activity_preview.xml"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/menu_main.xml.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/menu/main.xml"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/layout_main.xml.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/layout/main.xml"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable-hdpi_list_nodata.png.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable-hdpi/list_nodata.png"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/layout_playback_list_item.xml.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/layout/playback_list_item.xml"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable_main_toolbar_bg.png.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable/main_toolbar_bg.png"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable_cam_default.png.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable/cam_default.png"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable_title_bk.png.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable/title_bk.png"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable_title_bk.png.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable/title_bk.png"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable-xxhdpi/ic_launcher.png"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable-hdpi_pic_error_net_bad.png.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable-hdpi/pic_error_net_bad.png"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable_custommenu_pressed_selector.xml.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable/custommenu_pressed_selector.xml"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable-xhdpi_tab_indicator.xml.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable-xhdpi/tab_indicator.xml"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable_grid_bg.png.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable/grid_bg.png"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable-hdpi_list_refresh.png.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable-hdpi/list_refresh.png"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable_my_progress_drawable.xml.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable/my_progress_drawable.xml"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/layout_custom_menu.xml.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/layout/custom_menu.xml"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/layout_activity_playback.xml.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/layout/activity_playback.xml"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/layout_custom_menu_item.xml.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/layout/custom_menu_item.xml"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable_input_shade_white.xml.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable/input_shade_white.xml"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable_device_live.png.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable/device_live.png"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/layout_activity_record.xml.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/layout/activity_record.xml"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/layout_activity_record.xml.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/layout/activity_record.xml"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable_mainsetting_dialog_frame.xml.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable/mainsetting_dialog_frame.xml"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable-xhdpi_toolbar_playback_normal.png.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable-xhdpi/toolbar_playback_normal.png"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable_bg_item_selector.xml.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable/bg_item_selector.xml"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable-xhdpi_toolbar_video_hover.png.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable-xhdpi/toolbar_video_hover.png"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable-xhdpi_toolbar_select_video.xml.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable-xhdpi/toolbar_select_video.xml"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable_mainsetting_dialog_frame.xml.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable/mainsetting_dialog_frame.xml"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable-mdpi/ic_launcher.png"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable-hdpi_list_nodata.png.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable-hdpi/list_nodata.png"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable_device_live.png.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable/device_live.png"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/layout_list_content.xml.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/layout/list_content.xml"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable_my_progress_drawable.xml.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable/my_progress_drawable.xml"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable_custommenu_pressed_selector.xml.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable/custommenu_pressed_selector.xml"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/layout_tab_indicator.xml.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/layout/tab_indicator.xml"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable_bg_item_selector.xml.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable/bg_item_selector.xml"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/layout/activity_main.xml"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/layout_custom_menu.xml.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/layout/custom_menu.xml"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable-xhdpi_toolbar_playback_hover_ex.png.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable-xhdpi/toolbar_playback_hover_ex.png"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/layout_devsearch_list.xml.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/layout/devsearch_list.xml"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/layout_custom_menu_item.xml.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/layout/custom_menu_item.xml"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable-xhdpi_toolbar_select_video.xml.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable-xhdpi/toolbar_select_video.xml"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable-xhdpi_toolbar_select_playback.xml.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable-xhdpi/toolbar_select_playback.xml"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable-hdpi_list_refresh.png.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable-hdpi/list_refresh.png"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable-hdpi_pic_error_net_bad.png.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable-hdpi/pic_error_net_bad.png"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable_tab_selected.png.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable/tab_selected.png"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable_cam_default.png.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable/cam_default.png"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable-xhdpi_toolbar_video_normal.png.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable-xhdpi/toolbar_video_normal.png"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable-xhdpi_toolbar_playback_hover.png.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable-xhdpi/toolbar_playback_hover.png"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable-xhdpi_toolbar_select_playback.xml.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable-xhdpi/toolbar_select_playback.xml"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/layout_playback_list_item.xml.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/layout/playback_list_item.xml"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/layout_activity_playback.xml.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/layout/activity_playback.xml"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable-xhdpi_toolbar_video_normal.png.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable-xhdpi/toolbar_video_normal.png"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/layout_devsearch_list_item.xml.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/layout/devsearch_list_item.xml"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable_tab_unselected.png.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable/tab_unselected.png"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable_tab_unselected.png.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable/tab_unselected.png"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/layout_devsearch_list.xml.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/layout/devsearch_list.xml"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/layout_tab_indicator.xml.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/layout/tab_indicator.xml"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable-xhdpi/ic_launcher.png"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable-xhdpi_tab_indicator.xml.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable-xhdpi/tab_indicator.xml"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable-xhdpi_toolbar_video_hover.png.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable-xhdpi/toolbar_video_hover.png"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable_main_toolbar_bg.png.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable/main_toolbar_bg.png"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/layout_devsearch_list_item.xml.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/layout/devsearch_list_item.xml"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable_grid_bg.png.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable/grid_bg.png"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/drawable_tab_selected.png.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/drawable/tab_selected.png"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable_input_shade_white.xml.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable/input_shade_white.xml"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/layout_list_content.xml.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/layout/list_content.xml"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable-xhdpi_toolbar_playback_hover_ex.png.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable-xhdpi/toolbar_playback_hover_ex.png"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/layout_activity_preview.xml.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/layout/activity_preview.xml"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/drawable-xhdpi_toolbar_playback_hover.png.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/drawable-xhdpi/toolbar_playback_hover.png"
     },
     {
-        "merged": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/res/merged/debug/layout_main.xml.flat",
-        "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/layout/main.xml"
+        "merged": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/res/merged/debug/menu_main.xml.flat",
+        "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/menu/main.xml"
     }
 ]

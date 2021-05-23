@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+            "outputFile": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
             "map": [
                 {
-                    "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/values-v14/styles.xml",
+                    "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/values-v14/styles.xml",
                     "from": {
                         "startLines": "7",
                         "startColumns": "4",

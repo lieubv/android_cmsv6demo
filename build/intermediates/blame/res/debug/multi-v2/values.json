@@ -1,44 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/macos/Documents/GitHub/android_cmsv6demo/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/macos/Desktop/android_cmsv6demo-master/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/values/colors.xml",
-                    "from": {
-                        "startLines": "16,3,5,21,9,10,11,12,13,14,15,8,20,17,2,18,19,6,4,7",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "647,95,179,879,353,395,437,479,521,563,605,311,835,700,55,752,793,220,137,268",
-                        "endColumns": "52,41,40,49,41,41,41,41,41,41,41,41,43,51,39,40,41,47,41,42",
-                        "endOffsets": "695,132,215,924,390,432,474,516,558,600,642,348,874,747,90,788,830,263,174,306"
-                    },
-                    "to": {
-                        "startLines": "15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "722,775,817,858,908,950,992,1034,1076,1118,1160,1202,1244,1288,1340,1380,1421,1463,1511,1553",
-                        "endColumns": "52,41,40,49,41,41,41,41,41,41,41,41,43,51,39,40,41,47,41,42",
-                        "endOffsets": "770,812,853,903,945,987,1029,1071,1113,1155,1197,1239,1283,1335,1375,1416,1458,1506,1548,1591"
-                    }
-                },
-                {
-                    "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/values/strings.xml",
-                    "from": {
-                        "startLines": "3,2,4,6,5",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "102,55,155,256,208",
-                        "endColumns": "52,46,52,53,47",
-                        "endOffsets": "150,97,203,305,251"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "1764,1817,1864,1917,1971",
-                        "endColumns": "52,46,52,53,47",
-                        "endOffsets": "1812,1859,1912,1966,2014"
-                    }
-                },
-                {
-                    "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/values/attrs.xml",
+                    "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/values/attrs.xml",
                     "from": {
                         "startLines": "2,3,6,8,11,13,5,4,12,14,7,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +21,58 @@
                     }
                 },
                 {
-                    "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/values/styles.xml",
+                    "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,1",
+                        "startOffsets": "89,147,200",
+                        "endColumns": "57,55,50",
+                        "endOffsets": "142,198,249"
+                    },
+                    "to": {
+                        "startLines": "35,36,37",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1596,1654,1710",
+                        "endColumns": "57,55,53",
+                        "endOffsets": "1649,1705,1759"
+                    }
+                },
+                {
+                    "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/values/colors.xml",
+                    "from": {
+                        "startLines": "16,3,5,21,9,10,11,12,13,14,15,8,20,17,2,18,19,6,4,7",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "647,95,179,879,353,395,437,479,521,563,605,311,835,700,55,752,793,220,137,268",
+                        "endColumns": "52,41,40,49,41,41,41,41,41,41,41,41,43,51,39,40,41,47,41,42",
+                        "endOffsets": "695,132,215,924,390,432,474,516,558,600,642,348,874,747,90,788,830,263,174,306"
+                    },
+                    "to": {
+                        "startLines": "15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "722,775,817,858,908,950,992,1034,1076,1118,1160,1202,1244,1288,1340,1380,1421,1463,1511,1553",
+                        "endColumns": "52,41,40,49,41,41,41,41,41,41,41,41,43,51,39,40,41,47,41,42",
+                        "endOffsets": "770,812,853,903,945,987,1029,1071,1113,1155,1197,1239,1283,1335,1375,1416,1458,1506,1548,1591"
+                    }
+                },
+                {
+                    "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,2,4,6,5",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "102,55,155,256,208",
+                        "endColumns": "52,46,52,53,47",
+                        "endOffsets": "150,97,203,305,251"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "1764,1817,1864,1917,1971",
+                        "endColumns": "52,46,52,53,47",
+                        "endOffsets": "1812,1859,1912,1966,2014"
+                    }
+                },
+                {
+                    "source": "/Users/macos/Desktop/android_cmsv6demo-master/res/values/styles.xml",
                     "from": {
                         "startLines": "6,15,19,25,28,22,36",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -71,23 +88,6 @@
                         "endLines": "49,52,55,58,66,69,73",
                         "endColumns": "12,12,12,12,12,12,12",
                         "endOffsets": "2305,2465,2588,2714,3167,3296,3445"
-                    }
-                },
-                {
-                    "source": "/Users/macos/Documents/GitHub/android_cmsv6demo/res/values/dimens.xml",
-                    "from": {
-                        "startLines": "3,4,5",
-                        "startColumns": "4,4,1",
-                        "startOffsets": "89,147,200",
-                        "endColumns": "57,55,50",
-                        "endOffsets": "142,198,249"
-                    },
-                    "to": {
-                        "startLines": "35,36,37",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "1596,1654,1710",
-                        "endColumns": "57,55,53",
-                        "endOffsets": "1649,1705,1759"
                     }
                 }
             ]
